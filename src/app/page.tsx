@@ -14,72 +14,182 @@ export default function Home() {
       </div>
       <WhatWeBelieve />
       <JoinTheMovement />
-      {/* Builders/Startups Logo Section */}
-      <section className="py-20 bg-black">
-        <div className="mx-auto max-w-7xl px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-10">Trusted by Visionaries</h2>
-          <div className="grid grid-cols-6 grid-rows-3 gap-6">
-            {/* 18 logo slots, 3 rows x 6 columns */}
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/vercel.svg" alt="Vercel" className="h-10" />
+      {/* Trusted by Visionaries Section */}
+      <section className="py-16 bg-black border-t border-neutral-800">
+        <div className="mx-auto max-w-7xl px-6">
+          <h2 className="text-2xl font-medium text-center text-neutral-400 mb-12">Trusted by Visionaries</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+            {/* Row 1 */}
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">Vercel</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/next.svg" alt="Next.js" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">NEXT.js</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/globe.svg" alt="Globe" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">scale</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/window.svg" alt="Window" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">APOLLO</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/file.svg" alt="File" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">Cal.com</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <span className="text-white text-lg font-semibold">+ More</span>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">Linear</div>
             </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">knock</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">FLOX</div>
+            </div>
+            
             {/* Row 2 */}
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/vercel.svg" alt="Vercel" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">trunk</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/next.svg" alt="Next.js" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">SPEAKEASY</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/globe.svg" alt="Globe" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">Replay</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/window.svg" alt="Window" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">Graphite</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/file.svg" alt="File" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">spiral</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <span className="text-white text-lg font-semibold">+ More</span>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">baseten</div>
             </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">BaseHub</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">CURSOR</div>
+            </div>
+            
             {/* Row 3 */}
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/vercel.svg" alt="Vercel" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">KREA</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/next.svg" alt="Next.js" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">Harvey</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/globe.svg" alt="Globe" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">11ElevenLabs</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/window.svg" alt="Window" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">⏶</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <img src="/file.svg" alt="File" className="h-10" />
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">ZERO MATTER</div>
             </div>
-            <div className="flex items-center justify-center bg-neutral-900 rounded-lg h-24 border-2 border-dotted border-white">
-              <span className="text-white text-lg font-semibold">+ More</span>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">replicate</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">SOLANA</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">Decentraland</div>
+            </div>
+            
+            {/* Row 4 */}
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">MR BEAST</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">EDGELRD</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">DAYLIGHT COMPUTER</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">WARREN LOTAS</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">RANBOO</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">4DSUPER STUDIOS</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">BASECASE</div>
+            </div>
+            <div className="relative flex items-center justify-center bg-black border border-neutral-800 h-20 hover:bg-neutral-950 transition-colors before:absolute before:-top-0.5 before:-left-0.5 before:w-0.5 before:h-0.5 before:bg-white before:rounded-full after:absolute after:-top-0.5 after:-right-0.5 after:w-0.5 after:h-0.5 after:bg-white after:rounded-full">
+              <div className="absolute -bottom-0.5 -left-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="absolute -bottom-0.5 -right-0.5 w-0.5 h-0.5 bg-white rounded-full"></div>
+              <div className="text-white font-bold text-sm">GENERAL CATALYST</div>
             </div>
           </div>
         </div>
       </section>
-      {/* End Builders/Startups Logo Section */}
+      {/* End Trusted by Visionaries Section */}
       {/* <ProductDemoInterface /> */}
     </>
   )
